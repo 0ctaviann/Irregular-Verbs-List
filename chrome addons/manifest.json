@@ -1,17 +1,12 @@
-  {
-    "name": "Irregular Verbs List",
-	 "manifest_version": 2,
-    "version": "1.0",
-    "description": "Irregular Verbs List",
-    "icons": {
-      "16": "icon_16.png"
-    },
-    
-    "browser_action": {
-      "default_icon": {                   
-            "16": "icon_16.png"        
-                   
-          },
-      "default_popup": "popup.html"
-    }
-  }
+{
+  "name": "Irregular Verbs List",
+	"manifest_version": 2,
+  "version": "1.0",
+  "description": "Irregular Verbs List",
+  "icons": {"128": "icon_128.png"},
+  "browser_action": {
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html"
+  },
+  "permission": ["activeTab"]
+}
